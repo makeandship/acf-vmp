@@ -1,9 +1,9 @@
 <?php
 
 /*
-Plugin Name: Advanced Custom Fields: Medicine (VTM)
+Plugin Name: Advanced Custom Fields: Medicinal Product (VMP)
 Plugin URI: http://www.github.com/makeandship/acf-vmp
-Description: Select a medicine (VTM) from Dictionary of Medicines and Devices
+Description: Select a Medicinal Product (VMP) from Dictionary of Medicines and Devices
 Version: 1.0.0
 Author: Make and Ship Limited
 Author URI: http://www.makeandship.com

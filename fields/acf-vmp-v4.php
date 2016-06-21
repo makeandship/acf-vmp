@@ -28,7 +28,7 @@ class acf_field_vmp extends acf_field {
 	{
 		// vars
 		$this->name = 'vmp';
-		$this->label = __('Medicine (VTM)');
+		$this->label = __('Medicinal Product (VMP)');
 		$this->category = __("Basic",'acf'); // Basic, Content, Choice, etc
 		$this->defaults = array(
 			// add default here to merge into your field. 
