@@ -79,6 +79,7 @@ class acf_field_vmp extends acf_field {
 	function find_vmps( $name ) {
 		$query = array();
 		$query['name'] = $name;
+		$query['scheme'] = 'core';
 
 		$results = $this->api->vmps($query);
 		
@@ -194,6 +195,7 @@ class acf_field_vmp extends acf_field {
 	*/
 	
 	function render_field( $field ) {
+		$this->name = $field['_name'];
 		
 		$field['type'] = 'select';
 		$field['ui'] = 1;
