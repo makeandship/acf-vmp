@@ -79,7 +79,7 @@ class acf_field_vmp extends acf_field {
 	function find_vmps( $name ) {
 		$query = array();
 		$query['name'] = $name;
-		$query['scheme'] = 'core';
+		$query['scheme'] = 'light';
 
 		$results = $this->api->vmps($query);
 		
@@ -130,7 +130,6 @@ class acf_field_vmp extends acf_field {
 		
 		// validate
 		if( !$choices ) die();
-		
 		
 		// return JSON
 		$json = json_encode( $choices );
