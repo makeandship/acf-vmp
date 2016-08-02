@@ -199,6 +199,7 @@ class acf_field_vmp extends acf_field {
 		$field['type'] = 'select';
 		$field['ui'] = 1;
 		$field['ajax'] = 1;
+		$field['choices'] = array();
 
 		if( !empty($field['value']) ) {
 			$name = '';
@@ -219,7 +220,6 @@ class acf_field_vmp extends acf_field {
 			}
 			
 			// populate the choices
-			$field['choices'] = array();
 			$field['choices'][$field['value']] = $name;
 		}
 		
