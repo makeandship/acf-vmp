@@ -80,6 +80,7 @@ class acf_field_vmp extends acf_field {
 		$query = array();
 		$query['name'] = $name;
 		$query['scheme'] = 'light';
+		$query['per'] = 100;
 
 		$results = $this->api->vmps($query);
 		
