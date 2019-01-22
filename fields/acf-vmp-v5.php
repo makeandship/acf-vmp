@@ -142,7 +142,7 @@ class acf_field_vmp extends acf_field
         }
 
         // return JSON
-        $json = json_encode($choices);
+        $json = json_encode(array('results' => $choices));
 
         //error_log($json);
         echo $json;
