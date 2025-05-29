@@ -1,0 +1,23 @@
+{
+  "name": "acf-vmp",
+  "version": "1.0.0",
+  "description": "Welcome to the Advanced Custom Fields field type template repository. Here you will find a starter-kit for creating a new ACF field type. This start-kit will work as a normal WP plugin.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makeandship/acf-vmp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makeandship/acf-vmp/issues"
+  },
+  "homepage": "https://github.com/makeandship/acf-vmp#readme",
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.22.4",
+    "prettier": "^3.5.3"
+  }
+}
